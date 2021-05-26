@@ -1,0 +1,25 @@
+type: PowerTurret
+name: Velaser
+category: turret
+health: 2048
+size: 4
+range: 340
+description: The true purpose of vela.
+targetGround: true
+targetAir: true
+reloadTime: 0
+shots: 1
+placeableLiquid: true
+powerUse: 1
+shootSound: laser
+shootType: {
+    type: ContinuousLaserBulletType
+    length: 1000
+    width: 20
+    damage: 240
+    colors: ["5CFF62","68FF49","7CFF79","4FFF5C"]
+}
+
+requirements: [
+    copper/1
+]

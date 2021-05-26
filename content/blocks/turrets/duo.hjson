@@ -1,0 +1,57 @@
+name: Duo
+health: 250
+itemCapacity: 60
+ammoCapacity: 100
+ammoTypes: {
+    
+    copper: {
+    type: standardCopper
+    damage: 9
+    ammoMultiplier: 12
+    }
+    
+    
+    graphite: {
+    type: standardDense
+    ammoMultiplier: 4
+    damage: 18
+    reloadMultiplier: 0.6
+    }
+    
+    pyratite: {
+    type: standardIncendiary
+    damage: 11
+    status: burning
+    }
+    
+    silicon: {
+    type: standardHoming
+    damage: 12
+    ammoMultiplier: 5
+    reloadMultiplier: 1.5
+    }
+    
+    surge-alloy: {
+    type: ContinuousLaserBulletType
+    width: 4
+    length: 90
+    damage: 125
+    reloadMultiplier: 0.15
+    lifetime: 120
+    continuous: true
+    }
+
+}
+
+requirements: [
+    copper/35
+]
+size: 1
+reloadTime: 20
+shots: 1
+alternate: true
+velocityInaccuracy: 0.1
+inaccuracy: 2
+xRand: 0
+shootEffect: shootsSmall
+range: 190

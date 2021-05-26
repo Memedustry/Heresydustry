@@ -1,0 +1,54 @@
+name: Tsunami
+health: 2250
+
+ammoTypes: {
+    
+    water: {
+    type: heavyLiquidShot
+    damage: 0.2
+    knockback: 1.3
+    status: tarred
+    }
+    
+    
+    slag: {
+    type: heavyLiquidShot
+    damage: 0.2
+    knockback: 1.3
+    status: freezing
+    }
+    
+    cryofluid: {
+    type: heavyLiquidShot
+    damage: 4.75
+    knockback: 1.3
+    status: melting
+    }
+    
+    oil: {
+    type: heavyLiquidShot
+    damage: 0.2
+    knockback: 1.7
+    status: wet
+    }
+
+}
+
+requirements: [
+    metaglass/100
+    lead/400
+    titanium/250
+    thorium/100
+]
+size: 3
+reloadTime: 2
+shots: 2
+velocityInaccuracy: 0.1
+inaccuracy: 4
+recoilAmount: 1
+restitution: 0.04
+shootCone: 45
+liquidCapacity: 40
+shootEffect: shootLiquid
+range: 190
+flags: extinguisher

@@ -1,0 +1,23 @@
+type: Router
+name: "[scarlet]ROUTER LORD"
+description: A massive 50x50 router
+details: because why not?
+size: 16
+health: 9999
+itemCapacity: 9999
+speed: 9999
+
+requirements: [
+    copper/1000
+    lead/1000
+    metaglass/1000
+    graphite/1000
+    titanium/1000
+    thorium/1000
+    plastanium/1000
+    phase-fabric/1000
+    surge-alloy/1000
+]
+category: distribution
+research: distributor
+buildVisibility: shown

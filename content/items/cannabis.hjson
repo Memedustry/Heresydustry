@@ -1,0 +1,9 @@
+type: Item
+name: Cannabis
+description: *insert MLG pwnage*
+details: "[lime]smoke weed every day- day day- day-"
+explosiveness: 0.1
+flammability: 0.6
+charge: 0
+radioactivity: 0
+color: 00F000

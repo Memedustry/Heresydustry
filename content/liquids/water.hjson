@@ -1,0 +1,7 @@
+name: Water
+description: fire
+details: haha water burn
+viscosity: 0
+temperature: 1
+flammability: 1
+heatCapacity: -0.01

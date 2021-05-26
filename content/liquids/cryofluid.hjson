@@ -1,0 +1,8 @@
+name: Cryofluid
+description: fire
+details: combustible cryofluid go brrr
+viscosity: 0.7
+explosiveness: 1.2
+temperature: 0.5
+flammability: 1.2
+heatCapacity: 0.7

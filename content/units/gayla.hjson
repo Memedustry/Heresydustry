@@ -1,0 +1,56 @@
+type: mech
+name: Gayla
+health: 99999
+description: "Vela but [scarlet]g[green]a[blue]y"
+rotateSpeed: 1.6
+canDrown: false
+mechFrontSway: 1
+buildSpeed: 3
+mechStepParticles: true
+mechStepShake: 0.15
+speed: 0.39
+boostMultiplier: 2.2
+engineOffset: 12
+engineSize: 6
+lowAltitude: true
+riseSpeed: 0.02
+armor: 9
+canBoost: true
+landShake: 4
+weapons: [
+    {
+        //haha copypaste go brrrr
+        name: gayla-weapon
+        mirror: false
+        top: false
+        shake: 4
+        shootY: 15
+        shootX: -5
+        reload: 155
+        recoil: 0
+        firstShotDelay: 40
+        chargeSound: lasercharge2
+        shootSound: beam
+        continuous: true
+        cooldownTime: 200
+        shootStatus: slow
+        shootStatusDuration: 155
+        bullet: {
+            type: ContinuousLaserBulletType
+            damage: 30
+            length: 175
+            drawSize: 420
+            lifetime: 160
+            shake: 1
+            shootEffect: greenLaserChargeSmall
+            
+            colors: ["ff4040","f0ff40","40ff40","40f0ff"] 
+            
+            incendChance: 0.1
+            incendSpread: 5
+            incendAmount: 1
+            healPercent: 1
+            collidesTeam: true
+        }
+    }
+]

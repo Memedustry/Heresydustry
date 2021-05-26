@@ -1,0 +1,15 @@
+type: BurnerGenerator
+name: Steam Generator
+requirements: [
+    copper/35
+    graphite/25
+    lead/40
+    silicon/30
+]
+powerProduction: 5.5
+itemDuration: 90
+consumes: {
+    liquid: water/0.1
+}
+size: 1
+category: power

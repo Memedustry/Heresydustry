@@ -1,0 +1,58 @@
+type: mech
+name: "[scarlet]W I D E  [white]Vela"
+health: 7500
+description: Wide, horizontally tall, large, round, american, and of course, fat.
+rotateSpeed: 0.45
+canDrown: false
+mechFrontSway: 1
+buildSpeed: 3
+mechStepParticles: true
+mechStepShake: 0.15
+speed: 0.39
+boostMultiplier: 2.2
+engineOffset: 6
+engineSize: 3
+lowAltitude: true
+riseSpeed: 0.02
+armor: 9
+canBoost: true
+landShake: 6
+weapons: [
+    {
+        //haha copypaste go brrrr
+        name: massivela-weapon
+        mirror: false
+        top: false
+        shake: 4
+        shootY: 30
+        shootX: -5
+        reload: 155
+        recoil: 0
+        firstShotDelay: 40
+        chargeSound: lasercharge2
+        shootSound: beam
+        continuous: true
+        cooldownTime: 200
+        shootStatus: slow
+        shootStatusDuration: 155
+        bullet: {
+            type: ContinuousLaserBulletType
+            damage: 45
+            length: 100
+            width: 10
+            drawSize: 840
+            lifetime: 160
+            shake: 1
+            shootEffect: greenLaserChargeSmall
+            
+            colors: ["30FF30","4CFF59","73FF76","ffffff"] 
+            
+            incendChance: 0.1
+            incendSpread: 5
+            incendAmount: 1
+            healPercent: 100
+            collidesTeam: true
+            status: burning
+        }
+    }
+]
