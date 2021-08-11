@@ -1,14 +1,14 @@
 type: mech
-name: "[scarlet]Shoop da whoop"
-health: 696969
-description: "[scarlet]IMA FIRIN MA LAZAR\n[cyan]BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-rotateSpeed: 9999
+name: "[green]Thin[white]Vela"
+health: 3450
+description: "[red]when the diet kicks in"
+rotateSpeed: 0.45
 canDrown: false
 mechFrontSway: 1
 buildSpeed: 3
 mechStepParticles: true
 mechStepShake: 0.15
-speed: 1
+speed: 0.39
 boostMultiplier: 2.2
 engineOffset: 6
 engineSize: 3
@@ -20,33 +20,37 @@ landShake: 6
 weapons: [
     {
         //haha copypaste go brrrr
-        name: shoop
+        name: thinvela-weapon
         mirror: false
         top: false
-        shake: 10
+        shake: 4
         shootY: 15
         shootX: -5
         reload: 155
         recoil: 0
-        firstShotDelay: 210
-        chargeSound: shoop
+        firstShotDelay: 40
+        chargeSound: lasercharge2
+        shootSound: beam
         continuous: true
         cooldownTime: 200
+        shootStatus: slow
+        shootStatusDuration: 155
         bullet: {
             type: ContinuousLaserBulletType
-            damage: 999
-            length: 1000
-            width: 5
+            damage: 45
+            length: 100
+            width: 3
             drawSize: 840
-            lifetime: 480
+            lifetime: 160
             shake: 1
+            shootEffect: greenLaserChargeSmall
             
-            colors: ["37C0FF","4BC4FF","#6ADAFF","ffffff"] 
+            colors: ["30FF30","4CFF59","73FF76","ffffff"] 
             
             incendChance: 0.1
             incendSpread: 5
             incendAmount: 1
-            healPercent: -1
+            healPercent: 100
             collidesTeam: true
             status: burning
         }

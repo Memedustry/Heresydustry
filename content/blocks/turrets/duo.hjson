@@ -2,6 +2,7 @@ name: Duo
 health: 250
 itemCapacity: 60
 ammoCapacity: 100
+shootSound: smol
 ammoTypes: {
     
     copper: {

@@ -1,6 +1,7 @@
 type: Router
-name: "[scarlet]ROUTER LORD"
-description: A massive 50x50 router
+speed: 8
+name: "Router God"
+description: A massive 16x16 router
 details: because why not?
 size: 16
 health: 9999
@@ -20,4 +21,3 @@ requirements: [
 ]
 category: distribution
 research: distributor
-buildVisibility: shown

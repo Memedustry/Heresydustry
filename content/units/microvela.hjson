@@ -17,21 +17,14 @@ riseSpeed: 0.02
 armor: 9
 canBoost: true
 landShake: 2
-abilities: [
-    {
-    type: UnitSpawnAbility
-    unit: microvela
-    spawnTime:3000
-    }
-]
 weapons: [
     {
         //haha copypaste go brrrr
-        name: massivela-weapon
+        name: microvela-weapon
         mirror: false
         top: false
         shake: 4
-        shootY: 30
+        shootY: 7.5
         shootX: -5
         reload: 155
         recoil: 0

@@ -7,7 +7,7 @@ range: 340
 description: The true purpose of vela.
 targetGround: true
 targetAir: true
-reloadTime: 0
+reloadTime: 0.1
 shots: 1
 placeableLiquid: true
 powerUse: 1

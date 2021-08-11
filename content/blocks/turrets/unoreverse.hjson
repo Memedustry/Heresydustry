@@ -1,0 +1,39 @@
+type: PowerTurret
+name: "[red]U[orange]n[yellow]o [green]R[blue]e[purple]v[red]e[orange]r[yellow]s[green]e"
+category: turret
+health: 1750
+size: 3
+range: 160
+description: Harnesses the power of Uno Reverse to make targets move backwards
+targetGround: true
+targetAir: true
+reloadTime: 30
+shots: 1
+powerUse: 1.3
+shootSound: shotgun
+shootType: {
+    type: BasicBulletType
+    speed: 100
+    damage: 0
+    statusDuration: 30
+    shootEffect: {
+        type: particleEffect
+        particles: 3
+        length: 1
+        sizeFrom: 8
+        sizeTo: 0
+        lifetime: 8
+        region: heresy-noubeam
+    }
+    status: {
+        type: StatusEffect
+        name: reversed
+        displayName: Uno Reversed
+        description: The universal power of Uno Reverse.
+        speedMultiplier: -2
+    }
+}
+
+requirements: [
+    copper/1
+]

@@ -1,0 +1,34 @@
+type: legs
+name: DuoKnight
+health: 6900
+description: Well, then...
+legCount: 4
+legLength: 17
+rotateSpeed: 1.6
+canDrown: false
+buildSpeed: 0
+speed: 0.27
+armor: 5
+weapons: [
+    {
+        name: duoception
+        mirror: true
+        top: true
+        x: 4
+        y: 4
+        shootY: 0
+        shootX: 0
+        reload: 5
+        recoil: 1
+        shots: 2
+        spread: 15
+        bullet: {
+            type: BasicBulletType
+            damage: 30
+            lifetime: 160
+            speed: 3
+            width: 8
+            height: 12
+        }
+    }
+]
