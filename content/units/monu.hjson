@@ -1,0 +1,21 @@
+type: legs
+name: Mono
+legCount: 4
+legLength: 10
+flying: false
+canBoost: true
+boostMultiplier: 1
+description: Automatically mines copper and lead, depositing it into the core.
+health: 100
+flying: true
+drag: 0.06
+accel: 0.12
+speed: 1.5
+engineSize: 1.8
+engineOffset: 5.7
+range: 50
+isCounted: false
+
+mineTier: 1
+mineSpeed: 2.5
+controller: MinerAI
